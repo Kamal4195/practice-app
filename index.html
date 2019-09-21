@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kamal Bill</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <header style="text-align: center">
+        <h1>Maitre D</h1>
+    </header>
+    <div class="container" style="margin: 50px 0px 0px 500px">
+        Total: <input type="text" id="total" placeholder="0.00" size="40">
+        <br><br>
+        <div id="tip">Tip: $</div>
+        <div style="position: relative; left:15%; top:-1.5em"> Rate: <input type="text" id="rate" placeholder="0.0%"
+                size="10"></div>
+        <div id="tax">Tax: $</div><br>
+        <div id="grandtotal"></div><br><br>
+
+    </div>
+    <div style="text-align: center"><button onclick="calculate()">Calculate Bill</button></div>
+
+
+</body
